@@ -7,3 +7,5 @@ def loop(request):
 def Url(request):
     d={'A':[1,2,3,4,5,6,7,8],'B':'FRAMEWORK'}
     return render(request,'Url.html',context=d)
+
+
